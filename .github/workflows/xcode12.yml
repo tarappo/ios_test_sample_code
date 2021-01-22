@@ -1,16 +1,6 @@
 name: testing-xcode11.4
 
-on: 
-  push:
-    branches:
-      - master
-    paths:
-      - "Samples/Xcode11.4/**"
-  pull_request:
-    branches:
-      - master
-    paths:
-      - "Samples/Xcode11.4/**"
+on: [push]
 
 jobs:
   build:
@@ -26,10 +16,10 @@ jobs:
             ${{ runner.os }}-gem-
     - name: bundler
       run: |
-        cd ./Samples/Xcode11.4
+        cd ./Samples/Xcode12.0
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
     - name: run test
       run: |
-        cd ./Samples/Xcode11.4
-        DEVELOPER_DIR=/Applications/Xcode_11.4.app bundle exec fastlane test
+        cd ./Samples/Xcode12.0
+        DEVELOPER_DIR=/Applications/Xcode_12.0.app bundle exec fastlane test

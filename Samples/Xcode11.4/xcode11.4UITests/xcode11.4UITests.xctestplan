@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "A2C6D6AF-0277-452D-A675-0607B77DF698",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:xcode11.4.xcodeproj",
+        "identifier" : "738EAD642439AAB9006EFD80",
+        "name" : "xcode11.4UITests"
+      }
+    }
+  ],
+  "version" : 1
+}

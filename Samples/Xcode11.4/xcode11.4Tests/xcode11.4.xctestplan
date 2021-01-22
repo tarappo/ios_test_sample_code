@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "807EC5F4-E9F8-4268-956A-4DA758D70DD9",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:xcode11.4.xcodeproj",
+      "identifier" : "738EAD432439AAB2006EFD80",
+      "name" : "xcode11.4"
+    },
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:xcode11.4.xcodeproj",
+        "identifier" : "738EAD592439AAB9006EFD80",
+        "name" : "xcode11.4Tests"
+      }
+    }
+  ],
+  "version" : 1
+}

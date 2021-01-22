@@ -5,12 +5,12 @@ Xcodeのメジャーアップデートだけでなく「Testing」の箇所が�
 
 ## Xcode11系
 ### Xcode11.0
-![testing-xcode11.0](https://github.com/tarappo/ios_test_samples/workflows/testing-xcode11.0/badge.svg?branch=master)
+![testing-xcode11.0](https://github.com/tarappo/ios_test_sample_code/workflows/testing-xcode11.0/badge.svg)
 
  - [Xcode11.0のREADME](Samples/Xcode11.0/README.md)
 
 ### Xcode11.4
-![testing-xcode11.4](https://github.com/tarappo/ios_test_samples/workflows/testing-xcode11.4/badge.svg?branch=master)
+![testing-xcode11.4](https://github.com/tarappo/ios_test_sample_code/workflows/testing-xcode11.4/badge.svg)
 
  - [Xcode11.4のREADME](Samples/Xcode11.4/README.md)
 

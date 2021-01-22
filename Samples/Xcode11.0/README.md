@@ -1,0 +1,34 @@
+# Xcode11.0
+ - [Release Note](https://developer.apple.com/documentation/xcode_release_notes/xcode_11_release_notes)
+
+## Testing
+
+### Test Plans
+
+
+### Metrics
+ - testLaunchPerformance
+ - testPerformance
+
+Metricsの設定データは次のplistファイルに保存されています。
+
+ - ./Samples/Xcode11.0/xcode11.0.xcodeproj/xcshareddata/xcbaselines/
+
+
+例）CPU Instructions Retired
+
+```	<key>com.apple.dt.XCTMetric_CPU.instructions_retired</key>
+<dict>
+	<key>baselineAverage</key>
+	<real>2.65e+05</real>
+	<key>baselineIntegrationDisplayName</key>
+	<string>Local Baseline</string>
+	<key>maxPercentRelativeStandardDeviation</key>
+	<real>100</real>
+</dict>
+```
+
+
+### XCTUnwrap
+
+### Result Bundle

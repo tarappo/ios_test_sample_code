@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "DEF18045-E553-458C-9A0F-B6C3E11D8561",
+      "name" : "Japanese",
+      "options" : {
+        "language" : "ja"
+      }
+    },
+    {
+      "id" : "60ABB5E4-D400-4DB2-8C20-441B5A7F5F56",
+      "name" : "English",
+      "options" : {
+        "language" : "en"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:xcode11.0.xcodeproj",
+        "identifier" : "73BA593A241CAD21007C050B",
+        "name" : "xcode11.0UITests"
+      }
+    }
+  ],
+  "version" : 1
+}

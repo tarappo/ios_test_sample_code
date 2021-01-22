@@ -1,0 +1,25 @@
+name: testing-xcode11.0
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Cache bundle directory
+      uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+            ${{ runner.os }}-gem-
+    - name: bundler
+      run: |
+        cd ./Samples/Xcode11.0
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
+    - name: run test
+      run: |
+        cd ./Samples/Xcode11.0
+        DEVELOPER_DIR=/Applications/Xcode_11.4.app bundle exec fastlane test

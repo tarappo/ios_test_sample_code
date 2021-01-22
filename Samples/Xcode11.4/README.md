@@ -3,7 +3,7 @@
 
 ## Testing
 ### Execution Time Allowance
-executionTimeAllowanceを58で指定しているので、1分以上かかるテストはすべて失敗します。
+setupでexecutionTimeAllowanceを58で指定している場合、次のような1分以上かかるテストはすべて失敗します。
 
 ```
 func testExecutionTimeExample() throws {
@@ -11,7 +11,9 @@ func testExecutionTimeExample() throws {
 }
 ```
 
-<img src="./img/xctskipif.png" width=250>
+<img src="./img/xctskipif.png" width=500>
+
+※ CIが常にredになるためサンプルコードでは成功する時間を設定しています。
 
 
 ### XCTSkipIf
@@ -25,7 +27,7 @@ func testSkipExample() throws {
 
 Skipした場合は成功/失敗ではなく次のようになります。
 
-<img src="./img/execution_time_allowance.png" width=250>
+<img src="./img/execution_time_allowance.png" width=500>
 
 Test Reportも同様にSkipしたという情報になります。
 

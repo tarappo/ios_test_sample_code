@@ -12,7 +12,7 @@ import XCTest
 class xcode11_4Tests: XCTestCase {
 
     override func setUpWithError() throws {
-        // 1min
+        // 1min（分単位になる）
         executionTimeAllowance = 58
     }
 

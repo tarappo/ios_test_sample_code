@@ -12,7 +12,7 @@
 
 Metricsの設定データは次のplistファイルに保存されています。
 
- - ./Samples/Xcode11.0/xcode11.0.xcodeproj/xcshareddata/xcbaselines/
+ - [./Samples/Xcode11.0/xcode11.0.xcodeproj/xcshareddata/xcbaselines/](https://github.com/tarappo/ios_test_sample_code/tree/master/Samples/Xcode11.0/xcode11.0.xcodeproj/xcshareddata/xcbaselines/)
 
 
 例）CPU Instructions Retired
@@ -28,7 +28,7 @@ Metricsの設定データは次のplistファイルに保存されています�
 </dict>
 ```
 
-
 ### XCTUnwrap
+
 
 ### Result Bundle

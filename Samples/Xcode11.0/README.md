@@ -4,6 +4,18 @@
 ## Testing
 
 ### Test Plans
+テストの実行条件を「Test Plans」で指定することができます。
+
+ - すべて
+   - ./xcode11.0/xcode11.0AllTests.xctestplan
+ - ユニットテスト
+   - ./xcode11.0Tests/xcode11.0.xctestplan
+ - UIテスト
+   - ./xcode11.0UITests/xcode11.0UITests.xctestplan
+
+UIテストの「Test Plans」では次のようにApplication Languageで英語、日本語の設定をしています。
+
+<img src="./img/testplans.png" width=500>
 
 
 ### Metrics

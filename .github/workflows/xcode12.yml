@@ -1,6 +1,16 @@
-name: testing-xcode11.4
+name: testing-xcode12.0
 
-on: [push]
+on: 
+  push:
+    branches:
+      - master
+    paths:
+      - "Samples/Xcode12.0/**"
+  pull_request:
+    branches:
+      - master
+    paths:
+      - "Samples/Xcode12.0/**"
 
 jobs:
   build:

@@ -9,7 +9,15 @@
     }
   ],
   "defaultOptions" : {
-    "codeCoverage" : false,
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:Xcode11.4.xcodeproj",
+          "identifier" : "738EAD432439AAB2006EFD80",
+          "name" : "xcode11.4"
+        }
+      ]
+    },
     "targetForVariableExpansion" : {
       "containerPath" : "container:xcode11.4.xcodeproj",
       "identifier" : "738EAD432439AAB2006EFD80",
@@ -20,7 +28,7 @@
   "testTargets" : [
     {
       "target" : {
-        "containerPath" : "container:xcode11.4.xcodeproj",
+        "containerPath" : "container:Xcode11.4.xcodeproj",
         "identifier" : "738EAD592439AAB9006EFD80",
         "name" : "xcode11.4Tests"
       }

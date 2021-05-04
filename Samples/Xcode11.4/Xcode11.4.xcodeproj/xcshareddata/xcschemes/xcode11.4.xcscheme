@@ -17,7 +17,7 @@
                BlueprintIdentifier = "738EAD432439AAB2006EFD80"
                BuildableName = "xcode11.4.app"
                BlueprintName = "xcode11.4"
-               ReferencedContainer = "container:xcode11.4.xcodeproj">
+               ReferencedContainer = "container:Xcode11.4.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -41,7 +41,7 @@
                BlueprintIdentifier = "738EAD592439AAB9006EFD80"
                BuildableName = "xcode11.4Tests.xctest"
                BlueprintName = "xcode11.4Tests"
-               ReferencedContainer = "container:xcode11.4.xcodeproj">
+               ReferencedContainer = "container:Xcode11.4.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -63,7 +63,7 @@
             BlueprintIdentifier = "738EAD432439AAB2006EFD80"
             BuildableName = "xcode11.4.app"
             BlueprintName = "xcode11.4"
-            ReferencedContainer = "container:xcode11.4.xcodeproj">
+            ReferencedContainer = "container:Xcode11.4.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -80,7 +80,7 @@
             BlueprintIdentifier = "738EAD432439AAB2006EFD80"
             BuildableName = "xcode11.4.app"
             BlueprintName = "xcode11.4"
-            ReferencedContainer = "container:xcode11.4.xcodeproj">
+            ReferencedContainer = "container:Xcode11.4.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

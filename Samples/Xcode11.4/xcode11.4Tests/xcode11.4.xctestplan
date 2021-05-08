@@ -9,15 +9,6 @@
     }
   ],
   "defaultOptions" : {
-    "codeCoverage" : {
-      "targets" : [
-        {
-          "containerPath" : "container:Xcode11.4.xcodeproj",
-          "identifier" : "738EAD432439AAB2006EFD80",
-          "name" : "xcode11.4"
-        }
-      ]
-    },
     "targetForVariableExpansion" : {
       "containerPath" : "container:xcode11.4.xcodeproj",
       "identifier" : "738EAD432439AAB2006EFD80",

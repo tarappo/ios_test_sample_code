@@ -1,40 +1,34 @@
 # iOSの自動テストのサンプル
+[![Actions Status](https://github.com/tarappo/ios_test_sample_code/actions/workflows/merge.yml/badge.svg)](https://github.com/tarappo/ios_test_sample_code/actions)
+
 各Xcodeのバージョンで追加/改修されたAPIなどに対してのかんたんなサンプルコードです。
 
 Xcodeのメジャーアップデートだけでなく「Testing」の箇所がある程度アップデートされた際にコードを追加します。
+直近の３バージョンを主としており、それより前はArchiveのところにまとめてあります。
 
-## Xcode11系
-### Xcode11.0
-![testing-xcode11.0](https://github.com/tarappo/ios_test_sample_code/workflows/testing-xcode11.0/badge.svg)
+## Xcode 15
+### Xcode 15.0
+ - [Xcode 15.0のREADME](Samples/Xcode15.0/README.md)
 
- - [Xcode11.0のREADME](Samples/Xcode11.0/README.md)
+## Xcode 14
+### Xcode 14.0
+ - [Xcode 14.0のREADME](Samples/Xcode14.0/README.md)
 
-### Xcode11.4
-![testing-xcode11.4](https://github.com/tarappo/ios_test_sample_code/workflows/testing-xcode11.4/badge.svg)
-
- - [Xcode11.4のREADME](Samples/Xcode11.4/README.md)
-
-
-## Xcode12系
-### Xcode12.0
-対応中
-
- - [Xcode12.0のREADME](Samples/Xcode12.0/README.md)
-
-## Xcode13系
-### Xcode13.0
-
-### Xcode13.3
-
- - [Xcode13.3のREADME](Samples/Xcode13.3/README.md)
-
-## Xcode14系
-### Xcode14.0
+### Xcode 14.3
+ - [Xcode 14.3のREADME](Samples/Xcode14.3/README.md)
 
 
-### Xcode14.3
- - [Xcode14.3のREADME](Samples/Xcode14.3/README.md)
+## Xcode 13
+### Xcode 13.0
+ - [Xcode 13.0のREADME](Samples/Xcode13.3/README.md)
+### Xcode 13.3
+ - [Xcode 13.3のREADME](Samples/Xcode13.3/README.md)
 
 
-## Xcode15系
-### Xcode15.0
+## Archive
+古いXcodeのバージョンの情報は次にまとめてあります。
+
+ - [Xcode 11.0](Samples/Archive/Xcode11.0/README.md)
+ - [Xcode 11.4](Samples/Archive/Xcode11.4/README.md)
+ - [Xcode 12.0](Samples/Archive/Xcode12.0/README.md)
+ - [Xcode 12.5](Samples/Archive/Xcode12.5/README.md)

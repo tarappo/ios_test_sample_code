@@ -92,3 +92,6 @@ fastlane/report.xml
 iOSInjectionProject/
 .DS_Store
 
+
+.bundle/
+vendor/

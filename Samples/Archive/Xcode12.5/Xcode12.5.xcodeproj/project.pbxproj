@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A6CFFFB2B966944005A5580 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CFFFA2B966944005A5580 /* Sample.swift */; };
 		7D9733AB2659B732005F1366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9733AA2659B732005F1366 /* AppDelegate.swift */; };
 		7D9733AD2659B732005F1366 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9733AC2659B732005F1366 /* SceneDelegate.swift */; };
 		7D9733AF2659B732005F1366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9733AE2659B732005F1366 /* ViewController.swift */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A6CFFFA2B966944005A5580 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		3A9488AF2C2C03FB00945C32 /* Xcode12.5.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Xcode12.5.xctestplan; sourceTree = SOURCE_ROOT; };
 		7D9733A72659B732005F1366 /* Xcode12.5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xcode12.5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9733AA2659B732005F1366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D9733AC2659B732005F1366 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +109,7 @@
 				7D9733B32659B734005F1366 /* Assets.xcassets */,
 				7D9733B52659B734005F1366 /* LaunchScreen.storyboard */,
 				7D9733B82659B734005F1366 /* Info.plist */,
+				3A6CFFFA2B966944005A5580 /* Sample.swift */,
 			);
 			path = Xcode12.5;
 			sourceTree = "<group>";
@@ -115,6 +119,7 @@
 			children = (
 				7D9733C12659B734005F1366 /* Xcode12_5Tests.swift */,
 				7D9733C32659B734005F1366 /* Info.plist */,
+				3A9488AF2C2C03FB00945C32 /* Xcode12.5.xctestplan */,
 			);
 			path = Xcode12.5Tests;
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D9733AF2659B732005F1366 /* ViewController.swift in Sources */,
+				3A6CFFFB2B966944005A5580 /* Sample.swift in Sources */,
 				7D9733AB2659B732005F1366 /* AppDelegate.swift in Sources */,
 				7D9733AD2659B732005F1366 /* SceneDelegate.swift in Sources */,
 			);

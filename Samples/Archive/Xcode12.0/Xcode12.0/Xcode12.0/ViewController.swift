@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Xcode12.5
+//  Xcode12.0
 //
-//  Created by thirata on 2021/05/23.
+//  Created by Toshiyuki Hirata on 2024/07/26.
 //
 
 import UIKit

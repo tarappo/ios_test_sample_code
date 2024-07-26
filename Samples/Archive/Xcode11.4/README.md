@@ -5,7 +5,7 @@
 ### Execution Time Allowance
 setupでexecutionTimeAllowanceを58で指定している場合、次のような1分以上かかるテストはすべて失敗します。
 
-```
+```swift
 func testExecutionTimeExample() throws {
 	sleep(61)
 }
@@ -19,7 +19,7 @@ func testExecutionTimeExample() throws {
 ### XCTSkipIf
 特定の条件を満たした場合テストをスキップできます。
 
-```
+```swift
 func testSkipExample() throws {
 	try XCTSkipIf(true, "未実装")
 }

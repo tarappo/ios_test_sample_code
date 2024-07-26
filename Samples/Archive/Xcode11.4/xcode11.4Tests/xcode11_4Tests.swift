@@ -27,5 +27,6 @@ class xcode11_4Tests: XCTestCase {
     // Execution Time Allowance
     func testExecutionTimeExample() throws {
         sleep(57)
+        XCTAssertTrue(true)
     }
 }

@@ -1,4 +1,4 @@
-# Xcode12.5
+# Xcode 12.5
  - [Release Note](https://developer.apple.com/documentation/xcode-release-notes/xcode-12_5-release-notes)
 
 ## Testing

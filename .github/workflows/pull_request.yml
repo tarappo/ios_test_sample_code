@@ -26,4 +26,4 @@ jobs:
     - name: run all test
       run: |
         cd ./Samples
-        bundle exec fastlane all_tests
+        bundle exec fastlane main_tests

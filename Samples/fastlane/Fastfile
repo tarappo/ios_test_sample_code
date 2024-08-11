@@ -1,0 +1,47 @@
+default_platform(:ios)
+
+platform :ios do
+
+  all_main_test_target = [
+    [ "Xcode13.0", "./Xcode13.0/xcode13.0.xcodeproj", "Xcode13.0Tests", "-run-tests-until-failure -test-iterations 10" ]
+  ]
+
+  all_arhive_target = [
+    [ "Xcode 11.0", "./Archive/Xcode11.0/xcode11.0.xcodeproj", "xcode11.0AllTests", "" ],
+    [ "Xcode 11.4", "./Archive/Xcode11.4/xcode11.4.xcodeproj", "xcode11.4", "" ],
+    [ "Xcode 12.5", "./Archive/Xcode12.5/xcode12.5.xcodeproj", "Xcode12.5", "" ],
+  ]
+
+  desc "run main tests"
+  lane :main_tests do
+    all_main_test_target.each do |xcode_version, project, scheme, command|
+      UI.message("---------------------------------")
+      UI.message("Running tests for #{xcode_version}")
+
+      run_tests(
+        project: project,
+        scheme: scheme,
+        result_bundle: true,
+        xcargs: command,
+      )
+    end
+  end
+
+
+  desc "run all tests"
+  lane :all_tests do
+    all_test_target = all_arhive_target.concat(all_main_test_target)
+    all_test_target.each do |xcode_version, project, scheme, command|
+      UI.message("---------------------------------")
+      UI.message("Running tests for #{xcode_version}")
+
+      run_tests(
+        project: project,
+        scheme: scheme,
+        result_bundle: true,
+        xcargs: command,
+      )
+    end
+  end
+
+end

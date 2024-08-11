@@ -1,4 +1,4 @@
-# Xcode14.3
+# Xcode 14.3
  - [Release Note](https://developer.apple.com/documentation/xcode-release-notes/xcode-14_3-release-notes)
 
 ## Testing

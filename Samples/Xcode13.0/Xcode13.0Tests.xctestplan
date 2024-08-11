@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "3467C683-8865-4C5B-B64D-C84F747776B0",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Xcode13.0.xcodeproj",
+      "identifier" : "3A0CBE0B2C5397E1000A6098",
+      "name" : "Xcode13.0"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Xcode13.0.xcodeproj",
+        "identifier" : "3A0CBE212C5397E2000A6098",
+        "name" : "Xcode13.0Tests"
+      }
+    }
+  ],
+  "version" : 1
+}

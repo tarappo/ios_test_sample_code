@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  all_tests:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v4
@@ -20,7 +20,7 @@ jobs:
     - name: setup
       run: |
         cd ./Samples
-        brew install xcbeautify
+        brew reinstall xcbeautify
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
     - name: run all test

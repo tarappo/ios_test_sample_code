@@ -65,3 +65,4 @@ func chopVegetables() async throws -> [Vegetable] {
     }
 ```
 
+<img src="./image/setupWithError.png" alt="setUpWithErrorの実行例">

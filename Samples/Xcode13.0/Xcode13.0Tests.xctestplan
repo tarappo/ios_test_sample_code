@@ -9,7 +9,6 @@
     }
   ],
   "defaultOptions" : {
-    "codeCoverage" : false,
     "targetForVariableExpansion" : {
       "containerPath" : "container:Xcode13.0.xcodeproj",
       "identifier" : "3A0CBE0B2C5397E1000A6098",

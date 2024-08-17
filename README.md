@@ -20,7 +20,7 @@ Xcodeのメジャーアップデートだけでなく「Testing」の箇所が�
 
 ## Xcode 13
 ### Xcode 13.0
- - [Xcode 13.0のREADME](Samples/Xcode13.3/README.md)
+ - [Xcode 13.0のREADME](Samples/Xcode13.0/README.md)
 ### Xcode 13.3
  - [Xcode 13.3のREADME](Samples/Xcode13.3/README.md)
 

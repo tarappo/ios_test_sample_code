@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  all_tests:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v4

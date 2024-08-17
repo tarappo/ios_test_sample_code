@@ -18,6 +18,9 @@
   },
   "testTargets" : [
     {
+      "skippedTests" : [
+        "ErrorThrowsTests"
+      ],
       "target" : {
         "containerPath" : "container:Xcode13.0.xcodeproj",
         "identifier" : "3A0CBE212C5397E2000A6098",

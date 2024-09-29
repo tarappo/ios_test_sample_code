@@ -3,7 +3,7 @@ default_platform(:ios)
 platform :ios do
 
   all_main_test_target = [
-    [ "Xcode13.0", "./Xcode13.0/xcode13.0.xcodeproj", "Xcode13.0Tests", "-run-tests-until-failure -test-iterations 3" ]
+    [ "Xcode13.0", "./Xcode13.0/xcode13.0.xcodeproj", "Xcode13.0Tests", "-run-tests-until-failure -test-iterations 3" ],
     [ "Xcode16.0", "./Xcode16.0/xcode16.xcodeproj", "Xcode16" ]
   ]
 

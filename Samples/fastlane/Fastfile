@@ -22,6 +22,7 @@ platform :ios do
       run_tests(
         project: project,
         scheme: scheme,
+        device: "iPhone 16",
         result_bundle: true,
         xcargs: command,
       )

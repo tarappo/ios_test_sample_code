@@ -2,7 +2,8 @@ default_platform(:ios)
 
 platform :ios do
   all_main_test_target = [
-    [ "Xcode16.0", "./Xcode16.0/xcode16.xcodeproj", "xcode16" ]
+    [ "Xcode16.0", "./Xcode16.0/xcode16.xcodeproj", "xcode16" ],
+    [ "Xcode16.3", "./Xcode16.3/xcode16.3.xcodeproj", "xcode16.3" ],
   ]
 
   all_arhive_target = [

@@ -11,7 +11,7 @@ Xcodeのメジャーアップデートだけでなく「Testing」の箇所が�
  - [Xcode 16.0のREADME](Samples/Xcode16.0/README.md)
 
 ### Xcode16.3
- - T.B.D
+ - [Xcode 16.3のREADME](Samples/Xcode16.3/README.md)
 
 ## Xcode 15
 ### Xcode 15.0
